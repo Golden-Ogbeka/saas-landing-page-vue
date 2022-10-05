@@ -3,7 +3,21 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      textColor: {
+        blue: "#4F9CF9",
+        yellow: "#FFE492",
+        darkBlue: "#043873",
+      },
+      fontFamily: {
+        primary: "Inter",
+        secondary: "DM Sans",
+      },
+      backgroundColor: {
+        primary: "#4F9CF9",
+        secondary: "#FFE492",
+      },
+    },
   },
   plugins: [],
 };
