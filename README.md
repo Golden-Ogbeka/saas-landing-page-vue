@@ -9,4 +9,4 @@ Designer : Al Razi Siam
 
 ## Live Link
 
-[https://saas-landing-page-golden-ogbeka.vercel.app/](https://saas-landing-page-golden-ogbeka.vercel.app/)
+[https://saas-landing-page-vue.vercel.app/](https://saas-landing-page-vue.vercel.app/)
