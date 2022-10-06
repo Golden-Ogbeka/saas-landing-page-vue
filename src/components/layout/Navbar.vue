@@ -2,6 +2,7 @@
 import Logo from "../../assets/brand/logo.png";
 import MenuIcon from "../../assets/icons/menu.png";
 import { RouterLink } from "vue-router";
+import PrimaryButton from "./PrimaryButton.vue";
 
 const links: {
   label: string;
@@ -50,11 +51,10 @@ const links: {
         >
           Login
         </button>
-        <button
-          class="bg-primary w-[227px] h-[60px] rounded-lg duration-150 hover:drop-shadow-md font-medium text-white ml-6 hidden lg:block"
-        >
-          Try Whitepace free
-        </button>
+        <div class="ml-6 hidden lg:block">
+          <PrimaryButton text="Try Whitepace free" />
+        </div>
+
         <img :src="MenuIcon" alt="Menu" class="ml-5 xl:hidden" />
       </div>
     </div>

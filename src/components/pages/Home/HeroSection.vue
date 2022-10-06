@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Placeholder from "../../layout/Placeholder.vue";
+import PrimaryButton from "../../layout/PrimaryButton.vue";
 </script>
 
 <template>
@@ -19,11 +20,7 @@ import Placeholder from "../../layout/Placeholder.vue";
           Project management software that enables your teams to collaborate,
           plan, analyze and manage everyday tasks
         </p>
-        <button
-          class="bg-primary w-[227px] h-[60px] rounded-lg duration-150 hover:drop-shadow-md font-medium text-white"
-        >
-          Try Whitepace free
-        </button>
+        <PrimaryButton text="Try Whitepace free" />
       </div>
       <Placeholder width="824px" height="549px" />
     </div>
