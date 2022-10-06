@@ -46,12 +46,12 @@ const links: {
           </li>
         </ul>
         <button
-          class="bg-secondary w-[126px] h-[60px] rounded-lg duration-150 hover:brightness-105 font-medium text-darkBlue hidden lg:block"
+          class="bg-secondary w-[126px] h-[60px] rounded-lg duration-150 hover:drop-shadow font-medium text-darkBlue hidden lg:block"
         >
           Login
         </button>
         <button
-          class="bg-primary w-[227px] h-[60px] rounded-lg duration-150 hover:brightness-105 font-medium text-white ml-6 hidden lg:block"
+          class="bg-primary w-[227px] h-[60px] rounded-lg duration-150 hover:drop-shadow-md font-medium text-white ml-6 hidden lg:block"
         >
           Try Whitepace free
         </button>
