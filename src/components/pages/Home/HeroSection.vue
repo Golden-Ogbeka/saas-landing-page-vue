@@ -4,7 +4,7 @@ import PrimaryButton from "../../layout/PrimaryButton.vue";
 </script>
 
 <template>
-  <div class="pl-[8vw] pr-[8vw] p-[140px]">
+  <section class="pl-[8vw] pr-[8vw] p-[140px]" id="hero">
     <div
       class="grid grid-cols-1 lg:grid-cols-2 gap-y-[100px] gap-x-2 justify-items-center lg:justify-items-start"
     >
@@ -24,5 +24,5 @@ import PrimaryButton from "../../layout/PrimaryButton.vue";
       </div>
       <Placeholder width="824px" height="549px" />
     </div>
-  </div>
+  </section>
 </template>

@@ -3,6 +3,7 @@ import Logo from "../../assets/brand/logo.png";
 import MenuIcon from "../../assets/icons/menu.png";
 import { RouterLink } from "vue-router";
 import PrimaryButton from "./PrimaryButton.vue";
+import ChevronDown from "../../assets/icons/chevron-down.png";
 
 const links: {
   label: string;
@@ -40,9 +41,10 @@ const links: {
           <li v-for="link in links" :key="link.label">
             <a
               :href="link.href"
-              class="font-secondary font-medium text-blue hover:brightness-75 duration-150"
+              class="font-secondary font-medium text-blue hover:brightness-75 duration-150 flex flex-row items-center gap-[10px]"
             >
               {{ link.label }}
+              <img :src="ChevronDown" alt="" />
             </a>
           </li>
         </ul>
