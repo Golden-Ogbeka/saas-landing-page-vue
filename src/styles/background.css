@@ -1,0 +1,7 @@
+.work-section {
+  background-image: url(../assets/backgrounds/ripple.png),
+    url(../assets/backgrounds/blue-ripple.png);
+  background-size: 691.34px, cover;
+  background-repeat: no-repeat;
+  background-position: -280px -140px, center;
+}
