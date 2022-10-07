@@ -8,6 +8,7 @@ module.exports = {
         blue: "#4F9CF9",
         yellow: "#FFE492",
         darkBlue: "#043873",
+        primary: "#212529",
       },
       fontFamily: {
         primary: "Inter",

@@ -4,6 +4,7 @@ import Footer from "../components/layout/Footer.vue";
 import HeroSection from "../components/pages/Home/HeroSection.vue";
 import ProductSection from "../components/pages/Home/ProductSection.vue";
 import ResourcesSection from "../components/pages/Home/ResourcesSection.vue";
+import PricingSection from "../components/pages/Home/PricingSection.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import ResourcesSection from "../components/pages/Home/ResourcesSection.vue";
     <HeroSection />
     <ProductSection />
     <ResourcesSection />
+    <PricingSection />
   </main>
   <Footer />
 </template>

@@ -14,11 +14,11 @@ import WorkTogetherImage from "../../../assets/images/work-together.png";
         <div
           class="flex flex-col items-center lg:items-start text-center lg:text-left lg:pt-[68px] lg:pb-[68px]"
         >
-          <h1
+          <h2
             class="font-bold lg:text-[72px] md:text-[64px] md:leading-[77px] text-4xl sm:text-[54px]"
           >
             Project <span class="relative">Management <TextBg /></span>
-          </h1>
+          </h2>
           <p class="leading-[30px] mt-6 mb-[60px]">
             Images, videos, PDFs and audio files are supported. Create math
             expressions and diagrams directly from the app. Take photos with the
@@ -41,14 +41,14 @@ import WorkTogetherImage from "../../../assets/images/work-together.png";
         <div
           class="flex flex-col items-center justify-center lg:items-start text-center lg:text-left"
         >
-          <h1
+          <h2
             class="font-bold lg:text-[72px] md:text-[64px] md:leading-[77px] text-4xl sm:text-[54px]"
           >
             Work
             <span class="relative"
               >together<TextBg :style="{ bottom: '4px' }"
             /></span>
-          </h1>
+          </h2>
           <p class="leading-[30px] mt-6 mb-[60px]">
             With whitepace, share your notes with your colleagues and
             collaborate on them. You can also publish a note to the internet and

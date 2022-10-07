@@ -2,7 +2,6 @@
 import Placeholder from "../../layout/Placeholder.vue";
 import PrimaryButton from "../../layout/PrimaryButton.vue";
 import TextBg from "../../layout/TextBg.vue";
-import WorkTogetherImage from "../../../assets/images/work-together.png";
 </script>
 
 <template>
@@ -13,14 +12,14 @@ import WorkTogetherImage from "../../../assets/images/work-together.png";
       <div
         class="flex flex-col items-center lg:items-start text-center lg:text-left lg:pt-[49px] lg:pb-[49px]"
       >
-        <h1
+        <h2
           class="font-bold lg:text-[72px] md:text-[64px] md:leading-[77px] text-4xl sm:text-[54px]"
         >
           Customize it to your
           <span class="relative"
             >needs<TextBg :style="{ bottom: '8px' }"
           /></span>
-        </h1>
+        </h2>
         <p class="leading-[30px] mt-6 mb-[60px]">
           Customise the app with plugins, custom themes and multiple text
           editors (Rich Text or Markdown). Or create your own scripts and
