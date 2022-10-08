@@ -21,7 +21,7 @@ import TextBg from "../../layout/TextBg.vue";
           /></span>
         </h2>
         <p class="leading-[30px] mt-6 mb-[60px]">
-          Customise the app with plugins, custom themes and multiple text
+          Customize the app with plugins, custom themes and multiple text
           editors (Rich Text or Markdown). Or create your own scripts and
           plugins using the Extension API.
         </p>
