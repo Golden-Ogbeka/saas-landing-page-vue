@@ -1,6 +1,6 @@
 # saas-landing-page-vue
 
-Software as a Service Landing Page Design built with vue
+Software as a Service Landing Page Design built with Vue
 
 ## Design Details
 
@@ -10,3 +10,7 @@ Designer : Al Razi Siam
 ## Live Link
 
 [https://saas-landing-page-vue.vercel.app/](https://saas-landing-page-vue.vercel.app/)
+
+## Tools Used
+
+Vue JS, TypeScript, Tailwind CSS, Vue3 Carousel
