@@ -43,11 +43,10 @@ export default defineComponent({
   }),
   methods: {
     next() {
-      this.currentSlide =
-        this.currentSlide < testimonies.length - 1 ? this.currentSlide + 1 : 0;
+      this.currentSlide = this.currentSlide + 1;
     },
     prev() {
-      this.currentSlide = this.currentSlide > 0 ? this.currentSlide - 1 : 0;
+      this.currentSlide = this.currentSlide - 1;
     },
   },
 });
@@ -79,7 +78,6 @@ export default defineComponent({
       @click="prev"
       class="w-[75px] h-[75px] flex justify-center items-center bg-[#E6F1FE] rounded-full"
       style="box-shadow: 0px 4px 50px -15px rgba(0, 0, 0, 0.15)"
-      :disabled="currentSlide === 0"
     >
       <img :src="ArrowLeft" alt="Previous" />
     </button>
