@@ -42,7 +42,7 @@ import SlackIcon from "../../../assets/images/sponsors/slack.png";
         <span class="relative">sponsors<TextBg /></span>
       </h3>
       <div
-        class="grid xl:grid-flow-col gap-[100px] justify-items-center xl:justify-items-stretch"
+        class="grid lg:grid-flow-col gap-[100px] justify-items-center lg:justify-items-stretch items-center"
       >
         <div>
           <img :src="AppleIcon" alt="Apple" />

@@ -4,7 +4,7 @@ import AppsImage from "../../../assets/images/apps.png";
 </script>
 
 <template>
-  <section id="app" class="pl-[8vw] pr-[8vw] p-[140px] bg-[#043873] app-bg">
+  <section id="app" class="pl-[8vw] pr-[8vw] p-[140px] bg-darkBlue app-bg">
     <div
       class="grid grid-cols-1 lg:grid-cols-2 gap-y-[100px] gap-x-[98px] justify-items-center lg:justify-items-start items-center"
     >
