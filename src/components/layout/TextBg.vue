@@ -3,7 +3,7 @@ import TextImage from "../../assets/images/text-bg.png";
 import TextImageBlue from "../../assets/images/text-bg-blue.png";
 
 interface Props {
-  type: "normal" | "alternate";
+  type?: "normal" | "alternate";
 }
 
 const props = withDefaults(defineProps<Props>(), {

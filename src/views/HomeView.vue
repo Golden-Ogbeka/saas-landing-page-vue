@@ -9,6 +9,7 @@ import WorkSection from "../components/pages/Home/WorkSection.vue";
 import DataSponsorSection from "../components/pages/Home/DataSponsorSection.vue";
 import "../styles/background.css";
 import AppSection from "../components/pages/Home/AppSection.vue";
+import TestimonialSection from "../components/pages/Home/TestimonialSection.vue";
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import AppSection from "../components/pages/Home/AppSection.vue";
     <WorkSection />
     <DataSponsorSection />
     <AppSection />
+    <TestimonialSection />
   </main>
   <Footer />
 </template>
