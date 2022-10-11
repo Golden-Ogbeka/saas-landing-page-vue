@@ -6,7 +6,7 @@ import WorkTogetherImage from "../../../assets/images/work-together.png";
 </script>
 
 <template>
-  <div class="pl-[8vw] pr-[8vw] pb-[140px]">
+  <div class="pl-[8vw] pr-[8vw] pb-[140px] project-bg">
     <section id="products" class="pt-[140px]">
       <div
         class="grid grid-cols-1 lg:grid-cols-2 gap-y-[100px] gap-x-[60px] justify-items-center lg:justify-items-start"

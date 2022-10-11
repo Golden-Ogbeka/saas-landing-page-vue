@@ -7,6 +7,8 @@ import ResourcesSection from "../components/pages/Home/ResourcesSection.vue";
 import PricingSection from "../components/pages/Home/PricingSection.vue";
 import WorkSection from "../components/pages/Home/WorkSection.vue";
 import DataSponsorSection from "../components/pages/Home/DataSponsorSection.vue";
+import "../styles/background.css";
+import AppSection from "../components/pages/Home/AppSection.vue";
 </script>
 
 <template>
@@ -18,6 +20,7 @@ import DataSponsorSection from "../components/pages/Home/DataSponsorSection.vue"
     <PricingSection />
     <WorkSection />
     <DataSponsorSection />
+    <AppSection />
   </main>
   <Footer />
 </template>

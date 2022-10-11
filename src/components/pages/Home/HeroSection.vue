@@ -4,7 +4,7 @@ import PrimaryButton from "../../layout/PrimaryButton.vue";
 </script>
 
 <template>
-  <section class="pl-[8vw] pr-[8vw] p-[140px]" id="hero">
+  <section class="pl-[8vw] pr-[8vw] p-[140px] hero-bg" id="hero">
     <div
       class="grid grid-cols-1 lg:grid-cols-2 gap-y-[100px] gap-x-2 justify-items-center lg:justify-items-start"
     >

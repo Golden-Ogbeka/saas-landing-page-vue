@@ -5,3 +5,20 @@
   background-repeat: no-repeat;
   background-position: -280px -140px, center;
 }
+
+.hero-bg {
+  background-image: url(../assets/backgrounds/wave.png);
+  background-size: cover;
+}
+
+.project-bg {
+  background-image: url(../assets/backgrounds/ripple-right.png);
+  background-size: 448.52;
+  background-repeat: no-repeat;
+  background-position: left 285px;
+}
+
+.app-bg {
+  background-image: url(../assets/backgrounds/wave.png);
+  background-size: cover;
+}

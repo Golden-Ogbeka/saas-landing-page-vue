@@ -12,7 +12,7 @@ import SlackIcon from "../../../assets/images/sponsors/slack.png";
   <div class="pl-[8vw] pr-[8vw]">
     <section id="data" class="pb-[140px] pt-[140px]">
       <div
-        class="grid grid-cols-1 lg:grid-cols-2 gap-y-[100px] gap-x-[98px] justify-items-center lg:justify-items-start"
+        class="grid grid-cols-1 lg:grid-cols-2 gap-y-[100px] gap-x-[98px] justify-items-center lg:justify-items-start items-center"
       >
         <div
           class="flex flex-col items-center lg:items-start text-center lg:text-left"
@@ -42,7 +42,7 @@ import SlackIcon from "../../../assets/images/sponsors/slack.png";
         <span class="relative">sponsors<TextBg /></span>
       </h3>
       <div
-        class="grid lg:grid-flow-col gap-[100px] justify-items-center lg:justify-items-stretch"
+        class="grid xl:grid-flow-col gap-[100px] justify-items-center xl:justify-items-stretch"
       >
         <div>
           <img :src="AppleIcon" alt="Apple" />

@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import TextBg from "../../layout/TextBg.vue";
-import "../../../styles/background.css";
 import PrimaryButton from "../../layout/PrimaryButton.vue";
 </script>
 
